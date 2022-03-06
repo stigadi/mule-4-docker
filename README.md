@@ -1,4 +1,4 @@
-# mule-4-docker
+# mule-4-dockerized
 **Seven Simple Steps to host Mule Runtime on docker**
 * Setting up MuleSoft Runtime and Anypoint Clustering on Docker Engine
 * Install the docker https://www.docker.com/products/docker-desktop
