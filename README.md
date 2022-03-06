@@ -12,7 +12,6 @@
   2. docker run -d -p 8084:8084 --name muleservercontainer1 -i -t muledockerimage
   3. docker run -d -p 8085:8085 --name muleservercontainer2 -i -t muledockerimage
   # Mule server registration with ARM
-  Refer https://docs.mulesoft.com/runtime-manager/installing-and-configuring-runtime-manager-agent
   4. docker exec -it muleservercontainer1 /opt/mule/bin/**amc_setup --region eu1 -H 5fd11244-51af-4c75-b72e-3d4cdaab6cf1---39460** mule1
   5. docker exec -it muleservercontainer2 /opt/mule/bin/**amc_setup --region eu1 -H 5fd11244-51af-4c75-b72e-3d4cdaab6cf1---39460** mule2
 * On Anypoint Runtime manager create the cluster 
